@@ -12,7 +12,7 @@ public class Test {
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/restaurant_db?useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false",
                     "root",
-                    "Wanrltww2591994rs"
+                    "db password"
             );
 
             System.out.println("connection works");
